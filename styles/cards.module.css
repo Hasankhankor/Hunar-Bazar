@@ -1,0 +1,130 @@
+/* Container for cards */
+.cardsContainer {
+  position: relative;
+}
+
+/* Parent container for all cards */
+.parent {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Individual card styling */
+.card {
+  position: relative;
+  width: calc(25% - 20px); /* Adjust width for 4 cards in a row */
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Content box styling */
+.content-box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  transform: translateZ(50px);
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Card content styling */
+.card-content {
+  font-size: 14px;
+}
+
+/* Overlay styling for larger card view */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Large card styling */
+.largeCard {
+  position: relative;
+  width: 50%;
+  max-width: 800px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Close button */
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Large card image styling */
+.largeCardImage {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Large card content styling */
+.largeCardContent {
+  padding: 20px;
+}
+
+.largeCardContent h2 {
+  margin-top: 0;
+}
+
+.largeCardContent p {
+  font-size: 16px;
+}
+
+/* Arrow button styling */
+.arrowButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 40px;
+  color: black;
+  cursor: pointer;
+}
+
+.prevButton {
+  left: 10px;
+}
+
+.nextButton {
+  right: 10px;
+}

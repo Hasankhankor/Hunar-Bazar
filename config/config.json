@@ -1,0 +1,58 @@
+{
+  "site": {
+    "title": "Hunar  Bazaar ",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.svg",
+    "logo_width": "240",
+    "logo_height": "34",
+    "logo_text": "Hunar  Bazaar"
+  },
+
+  "settings": {
+    "pagination": 6,
+    "summary_length": 200,
+    "blog_folder": "posts"
+  },
+
+  "params": {
+    "tag_manager_id": "",
+    "contact_form_action": "#",
+    "footer_content": " is a marketplace that celebrates local craftsmanship and skills by connecting artisans with buyers. It offers a platform for skilled individuals to showcase their handmade products, promoting traditional and contemporary crafts from Pakistan.",
+    "copyright": "Designed & Developed By Hasan "
+  },
+
+  "contact_info": {
+    "phone": "+923469413675",
+    "email": "info@HunarBazaar",
+    "location": "Islamabad Pakistan"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Contact Now",
+    "link": ""
+  },
+
+  "metadata": {
+    "meta_author": "Hunar Bazaar",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Hunar Bazaar "
+  },
+
+  "call_to_action": {
+    "enable": true,
+    "title": "Hunar Bazaar",
+    "content": "is a marketplace that celebrates local craftsmanship and skills by connecting artisans with buyers. It offers a platform for skilled individuals to showcase their handmade products, promoting traditional and contemporary crafts from Pakistan.",
+    "button": {
+      "label": "Contact Now",
+      "link": ""
+    }
+  },
+
+  "disqus": {
+    "enable": true,
+    "shortname": "themefisher-template",
+    "settings": {}
+  }
+}
